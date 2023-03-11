@@ -1,1 +1,1 @@
-<img src="./wallpaper/youtubeclone.jpg"/>
+<img src="./assets/wallpaper/youtubeclone.jpg"/>
