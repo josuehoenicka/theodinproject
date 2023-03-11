@@ -105,6 +105,12 @@ main {
     width: 3em;
 }
 
+.more-video {
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+}
+
 .more-video-left {
     display: flex;
     align-items: center; 
@@ -114,3 +120,7 @@ main {
     margin-right: 0.5em;
 }
 
+.yt-reactions {
+    margin: 0 1em;
+    width: 1.66em;
+}
