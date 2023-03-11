@@ -1,0 +1,71 @@
+:root {
+    --black: #333333;
+    --white: #f1eded;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;  
+}
+
+nav {
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 1em;
+}
+
+.yt-icon {
+    width: 2em;
+    margin: 0 0.5em 0 0;
+}
+
+.yt-logo {
+    width: 5em;
+    margin: 0 0 0 0.5em;
+}
+
+.yt-input {
+    width: 30vw;
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    background-color: #383636;
+    color: var(--white);
+    outline: none;
+}
+
+.yt-search, .yt-microphone, .yt-bell, .yt-add {
+    width: 1.4em;
+    margin: 0 0.7em;
+}
+
+.yt-user {
+    width: 1.9em;
+    margin: 0 1em;
+}
