@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=YouTube+Sans&display=swap');
+
 :root {
     --black: #333333;
     --white: #f1eded;
@@ -13,6 +15,7 @@
     user-select: none;
     background-color: var(--black);
     color: var(--white);
+    font-family: 'YouTube Sans', monospace;
 }
 
 body {
@@ -50,12 +53,12 @@ nav {
 }
 
 .yt-input {
-    width: 30vw;
+    width: 40vw;
     border: none;
     border-radius: 2em;
     padding: 0.5em 1em;
     font-size: 1.2em;
-    background-color: #383636;
+    background-color: #272525;
     color: var(--white);
     outline: none;
 }
@@ -69,3 +72,45 @@ nav {
     width: 1.9em;
     margin: 0 1em;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    margin-top: 1em;
+}
+
+.main-video {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8em;
+}
+
+.recommend-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.yt-video {
+    width: 12em;
+    border-radius: 1em;
+}
+
+.name-video {
+    padding: 0.6em 0;
+}
+
+.yt-profile {
+    width: 3em;
+}
+
+.more-video-left {
+    display: flex;
+    align-items: center; 
+}
+
+.more-video-img {
+    margin-right: 0.5em;
+}
+
