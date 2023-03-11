@@ -93,7 +93,9 @@ main {
 }
 
 .yt-video {
-    width: 12em;
+    width: 11em;
+    height: 6em;
+    object-fit: cover;
     border-radius: 1em;
 }
 
@@ -123,4 +125,16 @@ main {
 .yt-reactions {
     margin: 0 1em;
     width: 1.66em;
+}
+
+.yt-video-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.45em;
+}
+
+.recommends {
+    display: flex;
+    margin: 0.3em 0;
 }
