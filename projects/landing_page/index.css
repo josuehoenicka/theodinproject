@@ -23,11 +23,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/**************************************** start tasks ****************************************/
 #header-container, #footer-container {
     background-color: var(--bg-primary);
 }
-
-/**************************************** start tasks ****************************************/
 
 #hero-title {
     font-size: 48px; 
@@ -41,7 +40,7 @@ a, #hero-description {
     color: #E5E7EB;
 }
 
-#header-title {
+#title {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -63,5 +62,74 @@ a, #hero-description {
     background-color: #E5E7EB;
     color: #1F2937;
 }
-
 /**************************************** finish tasks ****************************************/
+
+#body-container, #header-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5.8em;
+}
+
+.navbar-link {
+    opacity: 0.7;
+    padding: 0 0.5em;
+}
+
+#hero-container {
+    display: flex;
+    padding: 4em 6em;
+}
+
+#hero-description {
+    padding-top: 0.5em;
+    padding-right: 2em;
+    opacity: 0.7;
+}
+
+#hero-img {
+    width: 30em;
+}
+
+.signup-btn {
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    margin: 1em 0;
+    padding: 0.3em 1.7em;
+    border-radius: 0.5em;
+    color: white;
+}
+
+#main-container, #info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-title {
+    font-size: 2.3em;
+    padding: 0.5em 0;
+}
+
+#info-objects {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-image {
+    width: 14.5em;
+    height: 13em;
+    object-fit: cover;
+    border-radius: 100%;
+}
