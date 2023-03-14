@@ -3,7 +3,7 @@
     <td>
       <figure>
         <img src="./assets/wallpaper/contribution.jpg">
-        <figcaption>My contribution</figcaption>
+        <figcaption>My contribution (Built from scratch)</figcaption>
       </figure>
     </td>
     <td>
