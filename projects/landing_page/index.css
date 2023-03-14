@@ -47,6 +47,7 @@ a, #hero-description {
 
 #contact-background, .signup-btn {
     background-color: #3882F6;
+    cursor: pointer;
 }
 
 #info-title {
