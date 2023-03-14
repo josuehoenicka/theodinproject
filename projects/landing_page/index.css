@@ -55,7 +55,7 @@ a, #hero-description {
     color: #1F2937;
 }
 
-#slogan-text {
+#slogan-text, #slogan-autor {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -96,6 +96,7 @@ a, #hero-description {
 }
 
 #hero-img {
+    margin-left: 3.5em;
     width: 30em;
 }
 
@@ -125,11 +126,82 @@ a, #hero-description {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    padding: 0 6em;
 }
 
 .info-image {
-    width: 14.5em;
-    height: 13em;
+    margin-top: 1.5em;
+    width: 13.5em;
+    height: 12em;
     object-fit: cover;
-    border-radius: 100%;
+    border: 0.35em #3882F6 solid;
+    border-radius: 2em;
+}
+
+.info-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    opacity: 0.88;
+    padding: 0.8em 0;
+}
+
+#slogan-container {
+    margin-top: 4em;
+}
+
+#slogan-text {
+    padding: 1.5em 4em 0 4em;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+#slogan-autor {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4em 1.5em 0;
+    font-weight: bold;
+}
+
+#contact-container {
+    padding: 6em;
+    width: 100vw;
+}
+
+#contact-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+}
+
+#contact-call h3{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#contact-call p{
+    color: white;
+    opacity: 0.8;
+    font-size: 1.3em;
+}
+
+.btn-active {
+    border: 0.1em white solid;
+}
+
+#footer-container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 1.3em;
+    color: white;
+    font-weight: lighter;
 }
